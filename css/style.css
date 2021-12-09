@@ -47,8 +47,7 @@ body {
   display: flex;
 }
 .logo-footer {
-  padding: 0px 0px 20px 0px;
-  margin-right: 93px;
+  margin-bottom: 20px;
 
   color: var(--main-text-color);
   font-family: Raleway, sans-serif;
@@ -144,6 +143,8 @@ body {
 }
 
 .link-header {
+  padding: 32px 0px;
+
   color: var(--main-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -219,7 +220,6 @@ body {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
-  margin-bottom: 94px;
 }
 .main-section-title {
   color: var(--white-text-color);
@@ -237,7 +237,7 @@ body {
 
 /* Секция преимущества */
 .benefits-section {
-  margin-bottom: 94px;
+  padding: 94px 0px 47px 0px;
 }
 
 .benefits-container {
@@ -251,7 +251,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  margin-bottom: 10;
+  margin-bottom: 10px;
 }
 
 .benefits-description {
@@ -274,7 +274,8 @@ body {
 }
 /* Секция чем мы занимаемся */
 .section-works {
-  margin-bottom: 94px;
+  padding-top: 47px;
+  padding-bottom: 94px;
 }
 
 .works-list {
@@ -304,6 +305,10 @@ body {
   padding-bottom: 94px;
   text-align: center;
 }
+
+.command-container {
+  padding: 30px 0px;
+}
 .command-people {
   background-color: var(--white-text-color);
   width: 270px;
@@ -313,8 +318,9 @@ body {
 .command-people:last-child {
   margin-right: 0px;
 }
+
 .command-title {
-  padding: 30px 0px 10px 0px;
+  margin-bottom: 10px;
 
   color: var(--main-text-color);
   font-weight: 500;
@@ -329,8 +335,6 @@ body {
 }
 
 .command-text {
-  padding: 10px 0px 30px 0px;
-
   color: var(--secont-text-color);
   font-weight: 400;
   font-size: 16px;
@@ -369,6 +373,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
 .portfolio-item {
   margin-bottom: 30px;
 
@@ -377,11 +382,15 @@ body {
 
   border: 1px solid #eeeeee;
 }
+
 .portfolio-item:nth-child(n + 7) {
   margin-bottom: 0;
 }
+.portfolio-adout {
+  padding: 20px 24px;
+}
 .section-all-title {
-  padding: 20px 24px 4px 24px;
+  margin-bottom: 4px;
 
   color: var(--main-text-color);
   font-weight: 700;
@@ -390,8 +399,6 @@ body {
   letter-spacing: 0.06em;
 }
 .section-all-text {
-  padding: 4px 24px 2px 24px;
-
   color: var(--secont-text-color);
   font-weight: 400;
   font-size: 16px;
@@ -410,4 +417,10 @@ body {
 .footer-list {
   display: flex;
   flex-direction: column;
+}
+.footer-item {
+  margin-bottom: 9px;
+}
+.footer-item:last-child {
+  margin-bottom: 0px;
 }
